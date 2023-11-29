@@ -15,7 +15,7 @@ const LuckyN = ({ numDaus = 3, suma = 7 }) => {
   return (
     <main>
       <h1 className="mt-3 text-center text-xl text-blue-500">
-        Prova Sort! La suma ha de sumar {suma}!
+        Prova Sort! La suma ha de donar {suma}!
       </h1>
       {isWinner ? <p className="text-center text-2xl">Has guanyat!</p> : null}
       <Dice dice={dice} />
